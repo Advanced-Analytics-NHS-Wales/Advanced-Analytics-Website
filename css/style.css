@@ -1,0 +1,166 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+.navbar-header {
+	display: flex;
+	align-items: center;
+  }
+  
+  .navbar-brand {
+	margin-right: 10px;
+  }
+  
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f4f4f4;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+.navbar {
+	border: none;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 10px 15px;
+}
+
+.navbar-toggle {
+	margin: 8px 15px;
+}
+
+.navbar-nav > li > a {
+	padding: 15px 10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: transparent;
+	color: #777;
+}
+
+.active > a,
+.active > a:hover,
+.active > a:focus {
+	background-color: transparent !important;
+	color: #777 !important;
+}
+
+/* Inner Headline Styles */
+#inner-headline {
+	padding: 60px 0;
+	background-color: #f9f9f9;
+}
+
+#inner-headline h2.pageTitle {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+/* Content Styles */
+.course {
+	margin-top: 40px;
+}
+
+.course h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.course p {
+	margin-bottom: 20px;
+}
+
+.textbox {
+	background-color: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #ddd;
+}
+
+/* Service Styles */
+.service-v1 {
+	margin-bottom: 40px;
+}
+
+.service-v1 h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.service-v1 p {
+	margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #222;
+	color: #777;
+	padding: 40px 
